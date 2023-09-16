@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:monitordata/states/authen.dart';
 
 void main() {
@@ -10,6 +11,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Authen());
+    return GetMaterialApp(
+      home: Authen(),
+      theme: ThemeData(
+          useMaterial3: true,
+          colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.red),
+          scaffoldBackgroundColor: Colors.white),
+    );
   }
 }
