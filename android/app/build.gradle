@@ -24,7 +24,7 @@ if (flutterVersionName == null) {
 
 apply plugin: 'com.google.gms.google-services'
 
-android  
+android {
     namespace "com.somkheart.monitordata"
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
