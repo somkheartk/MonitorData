@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "201340547507",
+    "project_id": "monitordata-687a9",
+    "storage_bucket": "monitordata-687a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201340547507:android:9c9dd3ae9350797e989bc6",
+        "android_client_info": {
+          "package_name": "com.somkheart.monitordata"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxe2kEtYpZ7_3zAjoBNpjtUMDOYiZd3TE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

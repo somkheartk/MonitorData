@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:monitordata/utility/app_constant.dart';
+import 'package:monitordata/utility/app_service.dart';
 import 'package:monitordata/utility/app_snackbar.dart';
 import 'package:monitordata/widgets/widget_button.dart';
 import 'package:monitordata/widgets/widget_form.dart';
@@ -68,6 +69,9 @@ class _AuthenState extends State<Authen> {
                               title: 'เบอร์ผิด',
                               message: 'โทรศัพท์ต้องมี 10 หลัก')
                           .errorSnackBar();
+                    } else {
+                      AppService().processSendOTP(
+                          phoneNumber: textEditingController.text);
                     }
                   }
                 },

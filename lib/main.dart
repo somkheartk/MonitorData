@@ -2,9 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:monitordata/states/authen.dart';
 
-void main() {
+Future<void> main() async {
+   
   runApp(MyApp());
 }
+
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
